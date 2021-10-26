@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-console```
+```bash
     sudo apt install firefox-geckodriver python3-pip
     pip3 install selenium fake_useragent python-dotenv
 ```
@@ -13,7 +13,7 @@ console```
 
 Create an .env file in the script folder and add password=yourpassword
 
-console```
+```bash
     tee -a .bashrc << EOF
     alias yota="pytho3 /path/to/script
     EOF
@@ -23,12 +23,12 @@ console```
 
 ### Raise to 1000р
 
-console```
+```bash
     yota up
 ```
 
 ### Down to 450р
 
-console```
+```bash
     yota down
 ```

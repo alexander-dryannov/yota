@@ -9,15 +9,15 @@ console```
 
 ## Add alias to ~/.bashrc or if you have zsh then to ~/.zshrc
 
-## Variables
-
-Create an .env file in the script folder and add password=yourpassword
-
 console```
-    tee -a .bashrc << EOF
+    tee -a ~/.bashrc << EOF
     alias yota="pytho3 /path/to/script
     EOF
 ```
+
+## Variables
+
+Create an .env file in the script folder and add password=yourpassword
 
 ## Launch
 
